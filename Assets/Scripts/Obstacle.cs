@@ -2,18 +2,30 @@ using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.EventSystems;
 using UnityEngine.UIElements;
 
 public class Obstacle : MonoBehaviour
 {
-    public float movementSpeed = 0.0f;
-    public float DestroyObstacleLength = 0.0f;
+    public float speed = 5.0f;
+    public float destroyObstaclePoint = -15.0f;
 
+
+    private void Start()
+    {
+        
+    }
 
     // Update is called once per frame
     void Update()
     {
-        //transform.position = Vector2.MoveTowards(transform.position, movementSpeed * Time.deltaTime);
-        
+        Vector2 currentPosition = gameObject.transform.position;
+        Vector2 targetPosition = new Vector2(destroyObstaclePoint, currentPosition.y);
+        gameObject.transform.position = Vector2.MoveTowards(currentPosition, targetPosition, speed * Time.deltaTime);
+
+        if (currentPosition == targetPosition)
+        {
+            Destroy(gameObject);
+        }
     }
 }

@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using UnityEditor;
 using UnityEngine;
 
 
@@ -37,6 +38,11 @@ public class Player : MonoBehaviour
         if (collision.gameObject.CompareTag("Ground"))
         {
             isFalling = false;
+        }
+
+        if (collision.gameObject.CompareTag("Obstacle"))
+        {
+            Time.timeScale = 0.0f;
         }
     }
 
