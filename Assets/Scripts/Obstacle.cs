@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.EventSystems;
@@ -7,25 +5,24 @@ using UnityEngine.UIElements;
 
 public class Obstacle : MonoBehaviour
 {
-    public float speed = 5.0f;
+    public Parallax.Layer layer;
     public float destroyObstaclePoint = -15.0f;
 
 
-    private void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
     void Update()
     {
         Vector2 currentPosition = gameObject.transform.position;
         Vector2 targetPosition = new Vector2(destroyObstaclePoint, currentPosition.y);
-        gameObject.transform.position = Vector2.MoveTowards(currentPosition, targetPosition, speed * Time.deltaTime);
+        gameObject.transform.position = Vector2.MoveTowards(currentPosition, targetPosition, Parallax.GetSpeed(layer) * Time.deltaTime);
 
         if (currentPosition == targetPosition)
         {
             Destroy(gameObject);
         }
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        Health.TryDamageTarget(collision.gameObject, 1);
     }
 }

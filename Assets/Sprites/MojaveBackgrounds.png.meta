@@ -1,25 +1,22 @@
 fileFormatVersion: 2
-guid: 684efdf9d7d564249b03432bfccaf35e
+guid: 57621e73a9ff8fa4c8adc4cda573fcf5
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 2669142961033076756
-    second: Clouds_0
+      213: 1872647139378391275
+    second: MojaveBackgrounds_0
   - first:
-      213: -3967920315399815954
-    second: Clouds_1
+      213: -615489464676468747
+    second: MojaveBackgrounds_1
   - first:
-      213: -1749161583622989117
-    second: Clouds_2
+      213: 8276384347116176337
+    second: MojaveBackgrounds_2
   - first:
-      213: -5240784962635489071
-    second: Clouds_3
+      213: -4228440187958306834
+    second: MojaveBackgrounds_3
   - first:
-      213: 1327514091082312007
-    second: Clouds_4
-  - first:
-      213: 5063102313881138252
-    second: Clouds_5
+      213: -4155728749901138634
+    second: MojaveBackgrounds_4
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -149,127 +146,148 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Clouds_0
+      name: MojaveBackgrounds_0
       rect:
         serializedVersion: 2
-        x: 27
-        y: 313
-        width: 135
-        height: 74
+        x: 0
+        y: 4157
+        width: 1909
+        height: 328
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4106c1f9163ba0520800000000000000
-      internalID: 2669142961033076756
+      spriteID: be8ec4cc6aafcf910800000000000000
+      internalID: 1872647139378391275
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Clouds_1
+      name: MojaveBackgrounds_1
       rect:
         serializedVersion: 2
-        x: 29
-        y: 206
-        width: 156
-        height: 79
+        x: 1420
+        y: 3648
+        width: 9
+        height: 6
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: eecb98ffe7d1fe8c0800000000000000
-      internalID: -3967920315399815954
+      spriteID: 5f7b6f6c7975577f0800000000000000
+      internalID: -615489464676468747
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Clouds_2
+      name: MojaveBackgrounds_2
       rect:
         serializedVersion: 2
-        x: 16
-        y: 115
-        width: 68
-        height: 40
+        x: 0
+        y: 3325
+        width: 1909
+        height: 319
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3ca5461aecab9b7e0800000000000000
-      internalID: -1749161583622989117
+      spriteID: 1d3867aa6bf9bd270800000000000000
+      internalID: 8276384347116176337
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Clouds_3
+      name: MojaveBackgrounds_3
       rect:
         serializedVersion: 2
-        x: 99
-        y: 135
-        width: 94
-        height: 53
+        x: 0
+        y: 2494
+        width: 1909
+        height: 447
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1d027e5e7ddf447b0800000000000000
-      internalID: -5240784962635489071
+      spriteID: ee752c26d009155c0800000000000000
+      internalID: -4228440187958306834
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Clouds_4
+      name: MojaveBackgrounds_4
       rect:
         serializedVersion: 2
-        x: 16
-        y: 28
-        width: 80
-        height: 51
+        x: 0
+        y: 1666
+        width: 1909
+        height: 447
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 749694948074c6210800000000000000
-      internalID: 1327514091082312007
+      spriteID: 635b34f48b2e356c0800000000000000
+      internalID: -4155728749901138634
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Clouds_5
+      name: MojaveBackgrounds_5
       rect:
         serializedVersion: 2
-        x: 132
-        y: 32
-        width: 47
-        height: 30
+        x: 0
+        y: 829
+        width: 1909
+        height: 832
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: c44f750aab0c34640800000000000000
-      internalID: 5063102313881138252
+      spriteID: b3d8159cb86cc3940a74ce2b1ea59aa2
+      internalID: -440533995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MojaveBackgrounds_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1909
+        height: 832
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 3, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 922e58181a54d9a409cd4040175a515a
+      internalID: -903957035
       vertices: []
       indices: 
       edges: []
@@ -277,7 +295,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: f0fed228b36c68949b4c85b7dcf85728
     internalID: 0
     vertices: []
     indices: 
@@ -285,12 +303,13 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Clouds_0: 2669142961033076756
-      Clouds_1: -3967920315399815954
-      Clouds_2: -1749161583622989117
-      Clouds_3: -5240784962635489071
-      Clouds_4: 1327514091082312007
-      Clouds_5: 5063102313881138252
+      MojaveBackgrounds_0: 1872647139378391275
+      MojaveBackgrounds_1: -615489464676468747
+      MojaveBackgrounds_2: 8276384347116176337
+      MojaveBackgrounds_3: -4228440187958306834
+      MojaveBackgrounds_4: -4155728749901138634
+      MojaveBackgrounds_5: -66761879
+      MojaveBackgrounds_6: -440533995
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

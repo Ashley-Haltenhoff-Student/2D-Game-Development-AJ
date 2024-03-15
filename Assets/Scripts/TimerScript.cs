@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class TimerScript : MonoBehaviour
@@ -22,7 +20,7 @@ public class TimerScript : MonoBehaviour
         if (timer <= 0f)
         {
             SpawnObstacle();
-            timer = Random.Range(1.0f, 2.0f);
+            timer = Random.Range(2.0f, 4.0f);
         }
     }
 
