@@ -452,7 +452,20 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      HeartSpriteSheet_0: 6579227091846251853
+      HeartSpriteSheet_1: -6302670994431313377
+      HeartSpriteSheet_10: -7778655796959625353
+      HeartSpriteSheet_11: 1942411896770837283
+      HeartSpriteSheet_12: 626444081078584799
+      HeartSpriteSheet_2: -2386010758056584246
+      HeartSpriteSheet_3: -6950222592843495289
+      HeartSpriteSheet_4: -9069158414619034336
+      HeartSpriteSheet_5: 1021905111325919025
+      HeartSpriteSheet_6: 5933293270765673130
+      HeartSpriteSheet_7: -2264827157519390249
+      HeartSpriteSheet_8: 1314191558594002577
+      HeartSpriteSheet_9: -1799458587585099044
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

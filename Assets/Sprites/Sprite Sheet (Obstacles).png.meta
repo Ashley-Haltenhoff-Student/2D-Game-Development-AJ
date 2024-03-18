@@ -476,7 +476,21 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Sprite Sheet (Obstacles)_0: 5794103468600235529
+      Sprite Sheet (Obstacles)_1: 1839429990901475883
+      Sprite Sheet (Obstacles)_10: -5239645907970473129
+      Sprite Sheet (Obstacles)_11: 5334779997184822840
+      Sprite Sheet (Obstacles)_12: 3418065865839427444
+      Sprite Sheet (Obstacles)_13: 6301434636995826265
+      Sprite Sheet (Obstacles)_2: 1580511722304219310
+      Sprite Sheet (Obstacles)_3: -4395060471711828562
+      Sprite Sheet (Obstacles)_4: -4519945471135845324
+      Sprite Sheet (Obstacles)_5: 4409913854883328666
+      Sprite Sheet (Obstacles)_6: -3558402984779391022
+      Sprite Sheet (Obstacles)_7: -5604850560631573133
+      Sprite Sheet (Obstacles)_8: -5752242264755453383
+      Sprite Sheet (Obstacles)_9: -6630412334039699172
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
