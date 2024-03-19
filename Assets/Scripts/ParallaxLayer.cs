@@ -15,16 +15,16 @@ public class Parallax
         switch (layer)
         {
             case Layer.Foreground:
-                return speed * 2;
+                return speed * 4;
 
             case Layer.Middleground:
-                return speed * 1f;
+                return speed * 2f;
 
             case Layer.Background:
-                return speed * 0.5f;
+                return speed * 1f;
 
             default:
-                return speed * 2;
+                return speed * 4;
         }
     }
 }
