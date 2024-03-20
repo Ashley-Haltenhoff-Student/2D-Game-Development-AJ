@@ -1,13 +1,9 @@
-using Unity.VisualScripting;
 using UnityEngine;
-using UnityEngine.EventSystems;
-using UnityEngine.UIElements;
 
 public class Obstacle : MonoBehaviour
 {
     public Parallax.Layer layer;
     public float destroyObstaclePoint = -15.0f;
-
 
     void Update()
     {
@@ -17,7 +13,7 @@ public class Obstacle : MonoBehaviour
 
         if (currentPosition == targetPosition)
         {
-            Destroy(gameObject);
+            gameObject.SetActive(false);
         }
     }
 

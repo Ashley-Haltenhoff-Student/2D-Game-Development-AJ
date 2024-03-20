@@ -1,6 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEditor;
 using UnityEngine;
 
 
@@ -9,7 +6,7 @@ public class Player : MonoBehaviour
 {
 
     public new Rigidbody2D rigidbody;
-    public float jumpForce = 8.0f;
+    public float jumpForce = 10.0f;
     public bool isFalling = true;
 
 

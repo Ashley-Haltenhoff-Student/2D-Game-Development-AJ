@@ -7,11 +7,13 @@ public class Health : MonoBehaviour
     public void TakeDamage(int damage)
     {
         health -= damage;
+        GameFeel.AddCameraShake(0.1f);
+
         print($"Took Damage - Current Health: {health}");
 
         if (health <= 0)
         {
-            GameManager.instance.Restart();
+            GameManager.instance.EndGame();
         }
     }
 

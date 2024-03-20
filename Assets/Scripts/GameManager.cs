@@ -27,4 +27,9 @@ public class GameManager : MonoBehaviour
     {
         SceneManager.LoadScene(1);  
     }
+
+    public void EndGame()
+    {
+        SceneManager.LoadScene(2);
+    }
 }

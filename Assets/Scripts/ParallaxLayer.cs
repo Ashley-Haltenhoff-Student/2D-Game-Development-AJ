@@ -5,7 +5,7 @@ public class Parallax
 {
     public enum Layer
     {
-        Foreground, Middleground, Background
+        Foreground, Middleground, Background, Character
     }
 
     public static float speed = 2f;
@@ -23,6 +23,9 @@ public class Parallax
             case Layer.Background:
                 return speed * 1f;
 
+            case Layer.Character:
+                return speed * 5;
+
             default:
                 return speed * 4;
         }
@@ -39,7 +42,6 @@ public class ParallaxLayer : MonoBehaviour
 
     public Parallax.Layer layer;
 
-    // Update is called once per frame
     void Update()
     {
         for (int i = 0; i < tiles.Length; i++)
