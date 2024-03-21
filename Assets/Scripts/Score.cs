@@ -9,7 +9,11 @@ public class Score : MonoBehaviour
     public float timer = 0f;
     public float timerRate = 1f;
 
+    public int scoreForLevelUp = 60;
+    public int level = 1;
+
     public Text scoreDisplay;
+    public Text levelDisplay;
 
     void Start()
     {
@@ -33,6 +37,13 @@ public class Score : MonoBehaviour
             timer = 0f;
 
             if (score > highScore) highScore = score;
+        }
+
+        if (score >= scoreForLevelUp)
+        {
+            level++;
+            levelDisplay.text = "Level " + level;
+            scoreForLevelUp += scoreForLevelUp;
         }
         
     }

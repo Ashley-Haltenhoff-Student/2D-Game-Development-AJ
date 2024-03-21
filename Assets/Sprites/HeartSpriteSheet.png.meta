@@ -178,7 +178,7 @@ TextureImporter:
         width: 196
         height: 180
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -199,7 +199,7 @@ TextureImporter:
         width: 195
         height: 181
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -215,10 +215,10 @@ TextureImporter:
       name: HeartSpriteSheet_2
       rect:
         serializedVersion: 2
-        x: 7
-        y: 361
-        width: 93
-        height: 130
+        x: 9
+        y: 267
+        width: 237
+        height: 223
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -236,10 +236,10 @@ TextureImporter:
       name: HeartSpriteSheet_3
       rect:
         serializedVersion: 2
-        x: 102
-        y: 404
-        width: 24
-        height: 34
+        x: 280
+        y: 268
+        width: 220
+        height: 220
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -257,10 +257,10 @@ TextureImporter:
       name: HeartSpriteSheet_4
       rect:
         serializedVersion: 2
-        x: 127
-        y: 339
-        width: 119
-        height: 148
+        x: 9
+        y: 2
+        width: 221
+        height: 242
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -274,178 +274,10 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
-    - serializedVersion: 2
-      name: HeartSpriteSheet_5
-      rect:
-        serializedVersion: 2
-        x: 350
-        y: 416
-        width: 24
-        height: 33
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 137ccb2d8498e2e00800000000000000
-      internalID: 1021905111325919025
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: HeartSpriteSheet_6
-      rect:
-        serializedVersion: 2
-        x: 403
-        y: 375
-        width: 97
-        height: 115
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: aaa14383bca475250800000000000000
-      internalID: 5933293270765673130
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: HeartSpriteSheet_7
-      rect:
-        serializedVersion: 2
-        x: 55
-        y: 267
-        width: 140
-        height: 118
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 7d9266623b7b190e0800000000000000
-      internalID: -2264827157519390249
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: HeartSpriteSheet_8
-      rect:
-        serializedVersion: 2
-        x: 379
-        y: 360
-        width: 34
-        height: 24
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 19effc87242fc3210800000000000000
-      internalID: 1314191558594002577
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: HeartSpriteSheet_9
-      rect:
-        serializedVersion: 2
-        x: 322
-        y: 269
-        width: 76
-        height: 62
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: cdac6f2d2f90707e0800000000000000
-      internalID: -1799458587585099044
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: HeartSpriteSheet_10
-      rect:
-        serializedVersion: 2
-        x: 79
-        y: 188
-        width: 24
-        height: 34
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 77f303804c9ac0490800000000000000
-      internalID: -7778655796959625353
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: HeartSpriteSheet_11
-      rect:
-        serializedVersion: 2
-        x: 177
-        y: 92
-        width: 34
-        height: 23
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 32bb48a2455d4fa10800000000000000
-      internalID: 1942411896770837283
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: HeartSpriteSheet_12
-      rect:
-        serializedVersion: 2
-        x: 51
-        y: 2
-        width: 62
-        height: 65
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: fd5c55c929391b800800000000000000
-      internalID: 626444081078584799
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 623fd6941de83384889111bd3a9908ab
     internalID: 0
     vertices: []
     indices: 

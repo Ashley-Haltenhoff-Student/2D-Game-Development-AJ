@@ -14,6 +14,8 @@ public class PlayerAnimation : MonoBehaviour
     public GameObject particlePrefab;
     public ParallaxLayer layer;
 
+    Vector2 smokePosition;
+
 
     void Start()
     {
@@ -31,6 +33,8 @@ public class PlayerAnimation : MonoBehaviour
 
     public void Smoke()
     {
-        Instantiate(particlePrefab, transform.position, Quaternion.identity);
+        smokePosition.y = transform.position.y - 0.5f;
+        smokePosition.x = transform.position.x;
+        Instantiate(particlePrefab, smokePosition, Quaternion.identity);
     }
 }

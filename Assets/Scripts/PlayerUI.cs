@@ -5,6 +5,7 @@ public class PlayerUI : MonoBehaviour
 {
     public Health playerHealth;
     public Image[] heartImages;
+    public Image[] heartBreakingImages;
     int health = 0;
 
 
